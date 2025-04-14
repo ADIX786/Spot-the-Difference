@@ -10,7 +10,6 @@ A JSON-configurable "Spot the Difference" game built using HTML, CSS, and JavaSc
 ## 🧠 How JSON is Used
 - `config.json` defines:
   - Image paths (`image1`, `image2`)
-  - sound paths (`found`, `win`)
   - A list of differences (`x`, `y`, `width`, `height`)
 - The game reads this and dynamically sets up image hotspots.
 
